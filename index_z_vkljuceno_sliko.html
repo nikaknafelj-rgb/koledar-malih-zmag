@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koledar malih zmag</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:1000px;margin:0 auto;padding:20px;text-align:center;background:#faf9f4}
+.hero-image{width:100%;max-width:900px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.1)}
+button{background:#7da34d;color:white;border:none;padding:15px 30px;font-size:18px;border-radius:8px;cursor:pointer}
+#thankyou{display:none;margin-top:20px;font-weight:bold;color:#4f6b2f}
+</style>
+</head>
+<body>
+
+<h1>Koledar malih zmag</h1>
+<p>Interaktivni mesečni koledar aktivnosti za otroke.</p>
+
+<img src="IMG_20260526_093448_883(1).jpg" alt="Koledar malih zmag" class="hero-image">
+
+<br><br>
+
+<button onclick="interestClick()">Zanima me</button>
+
+<div id="thankyou">
+Hvala za vaše zanimanje!
+</div>
+
+<script>
+function interestClick(){
+ document.getElementById('thankyou').style.display='block';
+}
+</script>
+
+</body>
+</html>
